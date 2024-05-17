@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>ufc体验</title>
+    <link href="/2024/05/05/ufc%E4%BD%93%E9%AA%8C/"/>
+    <url>/2024/05/05/ufc%E4%BD%93%E9%AA%8C/</url>
+    
+    <content type="html"><![CDATA[<h3 id="校园卡"><a class="markdownIt-Anchor" href="#校园卡"></a> 校园卡</h3><p>南理工的企业微信里有电子卡应用，支持绑定UFC，申请成功之后我在HONOR 90pro的ufc版面见到了它。确实好用，图书馆进门不用找电子卡应用，直接手机贴上去就完事了。难怪香港人喜欢用八达通，这玩意是真方便，太爽了。</p><h3 id="银行卡"><a class="markdownIt-Anchor" href="#银行卡"></a> 银行卡</h3><p>中国银行的借记卡也可以激活ufc功能</p><h3 id="身份证"><a class="markdownIt-Anchor" href="#身份证"></a> 身份证</h3><p>出门在外身份证少不了，有了nfc就不用担心身份证带没带了</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>日常</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>testLaTeX.md</title>
+    <link href="/2024/05/04/testLaTeX-md/"/>
+    <url>/2024/05/04/testLaTeX-md/</url>
+    
+    <content type="html"><![CDATA[<h2 id="this-a-latex-test-post"><a class="markdownIt-Anchor" href="#this-a-latex-test-post"></a> This a LaTeX test post.</h2><p>已知<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><mi>x</mi><mi mathvariant="normal">d</mi><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">\int_{0}^{1}x\mathrm{d}x = \frac{1}{2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3648280000000002em;vertical-align:-0.35582em;"></span><span class="mop"><span class="mop op-symbol small-op" style="margin-right:0.19445em;position:relative;top:-0.0005599999999999772em;">∫</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0090080000000001em;"><span style="top:-2.34418em;margin-left:-0.19445em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">0</span></span></span></span><span style="top:-3.2579000000000002em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.35582em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathnormal">x</span><span class="mord"><span class="mord mathrm">d</span></span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.190108em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>, 求:<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><msup><mi>θ</mi><mn>2</mn></msup><mi mathvariant="normal">d</mi><mi>θ</mi></mrow><annotation encoding="application/x-tex">\int_{0}^{1}\theta ^2 \mathrm{d}\theta</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3648280000000002em;vertical-align:-0.35582em;"></span><span class="mop"><span class="mop op-symbol small-op" style="margin-right:0.19445em;position:relative;top:-0.0005599999999999772em;">∫</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0090080000000001em;"><span style="top:-2.34418em;margin-left:-0.19445em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">0</span></span></span></span><span style="top:-3.2579000000000002em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.35582em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mord"><span class="mord mathrm">d</span></span><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span></span></span></span><br />解：</p><p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msubsup><mo>∫</mo><mn>0</mn><mn>1</mn></msubsup><msup><mi>θ</mi><mn>2</mn></msup><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow><annotation encoding="application/x-tex">\int_{0}^{1}\theta^2 = \frac{1}{3}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.4759580000000003em;vertical-align:-0.9119499999999999em;"></span><span class="mop"><span class="mop op-symbol large-op" style="margin-right:0.44445em;position:relative;top:-0.0011249999999999316em;">∫</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.5640080000000003em;"><span style="top:-1.7880500000000001em;margin-left:-0.44445em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">0</span></span></span></span><span style="top:-3.8129000000000004em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.9119499999999999em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8641079999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.00744em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">3</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>math</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>打字网站分享</title>
+    <link href="/2024/05/03/%E6%89%93%E5%AD%97%E7%BD%91%E7%AB%99%E5%88%86%E4%BA%AB/"/>
+    <url>/2024/05/03/%E6%89%93%E5%AD%97%E7%BD%91%E7%AB%99%E5%88%86%E4%BA%AB/</url>
+    
+    <content type="html"><![CDATA[<p>如果你已经厌倦了金山打字通的页面，又想快速提高打字能力，那么你可能需要以下的打字网站：</p><ol><li><p><a href="https://edclub.com">edclub</a></p><p>edclub的Typing Jungle是我遇到的最舒适的打字练习界面，600多个课程练习下来，打字速度基本上可以稳定在50wpm以上，平常输入绰绰有余。而且这个网站大部分内容都是免费的，不开高级会员完全不影响打字练习，并且提供了丰富多彩的课程练习。美中不足的是中文语法只支持全拼输入，并且只能练习拼音，打字输入体验不算好（另外会时不时被墙），如果希望练习英文输入，这个网站是首选</p></li><li><p><a href="https://qwerty.kaiyi.cool/">Qwerty</a></p><p>这是一个把打字和英语学习结合起来的网站，类似不背单词的输入检验，用户可以边打字边背四六级单词。另外，网站还内置了程序员语料库，提供pyhon之类的程序常用语句练习。访问项目的GitHub主页了解更多信息：<a href="https://github.com/RealKai42/qwerty-learner">https://github.com/RealKai42/qwerty-learner</a></p></li></ol><p>打字技能是我目前觉得最基础、最实用的技能，它让我对电脑更熟悉，提高了我的效率。我强烈建议每一个人都学会盲打，这只需要一个星期不到的训练，但是它会大大提高你对电脑的熟练度</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>网站分享</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Andriod端的编程开发——termux简介</title>
+    <link href="/2024/05/03/Andriod%E7%AB%AF%E7%9A%84%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91%E2%80%94%E2%80%94termux%E7%AE%80%E4%BB%8B/"/>
+    <url>/2024/05/03/Andriod%E7%AB%AF%E7%9A%84%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91%E2%80%94%E2%80%94termux%E7%AE%80%E4%BB%8B/</url>
+    
+    <content type="html"><![CDATA[<p>Andriod端的命令行终端：<a href="https://termux.dev/en/">termux</a></p><p>入手了xiaomi pad 6之后，我想要在Andriod端做一些简单的编程开发，第一个想到的就是下载vscode，但是它没有Andriod发行版…（不可能，我一定要在平板上跑vscode），于是我开始折腾终端环境。在被node的发行版不支持反复折磨之后，我终于发现原来termux的包管理工具pkg中就自带了vscode。嗯，看起来不错，终于能在localhost:4000看到熟悉的vscode页面了，但是这个启动速度实在太慢了，javascript果然是依托。在编辑我的bash配置时，我使用了vim，从此发现新天地…由于我的电脑是游戏本，携带过于笨重，所以有时一台平板也可以成为我的开发平台，更加便携</p><p>安装termux之后，可以开启设备的存储权限:<code>termux-setup-storage</code> [1], 之后使用<code>cd</code>命令导航进入<code>storage</code>目录即可</p><p>接下来可以使用termux的包管理工具<code>pkg</code>，首先使用<code>pkg upgrade</code>更新安装库，之后可以使用<code>pkg install</code>命令安装库:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs textile">pkg install python c java git <br></code></pre></td></tr></table></figure><p>注意<code>pkg install</code>命令可以接受多个参数</p><p>简单的环境配置之后就可以进行编程开发。由于termux是类linux环境，支持原生vim编辑器，因此使用vim可以带来极为舒爽的编程体验，关于vim这里只介绍几个简单的编辑模式：</p><p>按键 [i] 进入<code>insert</code>插入模式，命令行指令<code>:wq</code>保存编辑并退出，另外可以通过[h][j][k][l]控制方向，完全解放右手不碰鼠标</p><p>引用：</p><p>[1] <a href="https://wiki.termux.com/wiki/Termux-setup-storage">Termux-setup-storage - Termux Wiki</a></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>编程环境</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>git命令简记</title>
+    <link href="/2024/03/30/git%E5%91%BD%E4%BB%A4%E7%AE%80%E8%AE%B0/"/>
+    <url>/2024/03/30/git%E5%91%BD%E4%BB%A4%E7%AE%80%E8%AE%B0/</url>
+    
+    <content type="html"><![CDATA[<h1 id="情况说明"><a class="markdownIt-Anchor" href="#情况说明"></a> 情况说明：</h1><p>昨天晚上，在2个小时的debug之后，我终于成功重构了我的数据处理程序，让它看起来没那么简陋了。下一步的工作是更新github上的repo，之前使用过git来提交我的博客文章，所以这次我决定也使用git来提交我的代码。嗯，没得说，又是一个多小时的折腾，经过与gpt来来回回的反复扯皮，我终于是搞清楚了git的几个简单命令，现在我要把它们记录在册，免得下次使用还是记不得</p><h1 id="使用git上传本地代码到github上的简单方法"><a class="markdownIt-Anchor" href="#使用git上传本地代码到github上的简单方法"></a> 使用git上传本地代码到github上的简单方法</h1><h3 id="第一步cmd导航到对应的文件夹"><a class="markdownIt-Anchor" href="#第一步cmd导航到对应的文件夹"></a> 第一步，cmd导航到对应的文件夹</h3><p>可以使用cd命令一个文件夹一个文件夹地找过去，也可以直接cd #文件路径直接找到目标文件夹。注意，切换盘符时不使用cd命令，直接输入对应的盘符即可。比如从C盘切换到D盘，输入D:即可</p><h3 id="第二步绑定ssh密钥"><a class="markdownIt-Anchor" href="#第二步绑定ssh密钥"></a> 第二步，绑定ssh密钥</h3><p>这一步因为我之前上传博客文章的时候已经做过，所以掠过。注意，git不仅支持ssh绑定，也可以输入仓库的url，只是这样每次传文件的时候都需要登录github(输入账号密码)</p><h3 id="第三步初始化git仓库命令git-init"><a class="markdownIt-Anchor" href="#第三步初始化git仓库命令git-init"></a> 第三步，初始化git仓库，命令：git init</h3><p>这一步将你的本地代码文件夹变成了本地代码仓库</p><h3 id="第四步添加文件到本地仓库git-add"><a class="markdownIt-Anchor" href="#第四步添加文件到本地仓库git-add"></a> 第四步，添加文件到本地仓库：git add .</h3><p>git add是添加文件命令， .表示添加文件夹内全部代码，你也可以指定添加的文件路径</p><h3 id="第五步查看本地分支命令git-branch"><a class="markdownIt-Anchor" href="#第五步查看本地分支命令git-branch"></a> 第五步，查看本地分支，命令：git branch</h3><p>由于github在2020年做了一次更新，所有repo的默认主分支从master改成了main，而git并没有追随这一改动，造成了本地主分支名和远程仓库主分支名不一致，所以需要查看本地主分支名。如果不一致则需要修改</p><h3 id="第六步修改本地分支名命令git-branch-m-master-main"><a class="markdownIt-Anchor" href="#第六步修改本地分支名命令git-branch-m-master-main"></a> 第六步，修改本地分支名，命令：git branch -m master main</h3><p>这一步将主分支从master重命名到main</p><h3 id="第七步添加远程仓库命令git-remote-add-origin-gitgithubcomusernamerepogit"><a class="markdownIt-Anchor" href="#第七步添加远程仓库命令git-remote-add-origin-gitgithubcomusernamerepogit"></a> 第七步，添加远程仓库，命令：git remote add origin <a href="mailto:git@github.com">git@github.com</a>:username/repo.git</h3><p>这里的username和repo分别是你的github用户名和仓库名。origin是你本地仓库的命名，习惯上用origin，你也可以指定其他的名字</p><h3 id="第八步将本地分支推送到远程仓库命令git-push-u-origin-main"><a class="markdownIt-Anchor" href="#第八步将本地分支推送到远程仓库命令git-push-u-origin-main"></a> 第八步，将本地分支推送到远程仓库，命令：git push -u origin main</h3><p>这个命令会将本地的分支推送到远程仓库的分支中，并在远程仓库中创建与本地分支同名的分支。注意，如果远程仓库中已经存在该分支，该命令会提示推送失败。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>git</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>建站小记</title>
+    <link href="/2024/03/09/%E5%BB%BA%E7%AB%99%E5%B0%8F%E8%AE%B0/"/>
+    <url>/2024/03/09/%E5%BB%BA%E7%AB%99%E5%B0%8F%E8%AE%B0/</url>
+    
+    <content type="html"><![CDATA[<h1 id="一些小说明"><a class="markdownIt-Anchor" href="#一些小说明"></a> 一些小说明</h1><p>本站使用Hexo静态网站框架搭建，主要用来存放我的一些想法、随笔和技术分享。我曾经想过不使用框架，全部使用HTML&amp;CSS&amp;Javascript，但是后来才发现这是多么惊人的工作量&gt;__&lt;</p><p>好在我很快迷途知返，很快就确定了Hexo + Github托管的方案。有兴趣的朋友可以看看知乎上的教程和Hexo的文档，讲的还是比较全面的。不懂的地方问问AI，基本上也不会有什么瓶颈。</p><h2 id="我为什么要做个人博客"><a class="markdownIt-Anchor" href="#我为什么要做个人博客"></a> 我为什么要做个人博客？</h2><p>因为酷啊！（笑）在互联网的森林里拥有一片自己的绿茵，简直是一件酷到不能再酷的事情。其实，现有的博客平台，比如知乎、微博和CSDN等，虽然很方便，可伸展性却不如自己的网站。作为一个爱折腾的人，我比较喜欢自己来定义我的空间。别人的模板固然好用，但自己造的轮子才最亲切。</p><h3 id="附录"><a class="markdownIt-Anchor" href="#附录"></a> 附录</h3><p><a href="https://hexo.io/zh-cn/">Hexo</a></p><p><a href="https://zhuanlan.zhihu.com/p/26625249">GitHub+Hexo 搭建个人网站详细教程</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2024/03/08/hello-world/"/>
+    <url>/2024/03/08/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2><h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
