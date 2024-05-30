@@ -16,22 +16,22 @@
   <meta name="author" content="海星">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Termux in Andriod Andriod 端的命令行终端：Termux 入手了xiaomi pad 6之后，我想要在 Andriod 端做一些简单的编程开发，第一个想到的就是下载 VScode，但是它没有 Andriod 发行版…（不可能，我一定要在平板上跑vscode），于是我开始折腾终端环境。在被 Node.js 的发行版反复折磨之后，我终于发现原来 Termux 的包管理工具 p">
+    <meta name="description" content="Pandoc简单使用  1.什么是 Pandoc ?  1.简介 Pandoc 是一个基于 GPL 协议开源的免费命令行软件，由加州大学伯克利分校哲学系教授 John MacFarlane 使用 Haskell 语言开发，目前另一位核心开发者是来自德国的 Albert Krewinkel。截止 2022 年 12 月 10 日，Pandoc 的 GitHub 仓库拥有超过 27,000 个 St">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Termux简介">
-<meta property="og:url" content="http://starfish233e.github.io/2024/05/03/Andriod%E7%AB%AF%E7%9A%84%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91%E2%80%94%E2%80%94termux%E7%AE%80%E4%BB%8B/index.html">
+<meta property="og:title" content="Pandoc简单使用">
+<meta property="og:url" content="http://starfish233e.github.io/2024/05/30/Pandoc%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/index.html">
 <meta property="og:site_name" content="海星的沙滩">
-<meta property="og:description" content="Termux in Andriod Andriod 端的命令行终端：Termux 入手了xiaomi pad 6之后，我想要在 Andriod 端做一些简单的编程开发，第一个想到的就是下载 VScode，但是它没有 Andriod 发行版…（不可能，我一定要在平板上跑vscode），于是我开始折腾终端环境。在被 Node.js 的发行版反复折磨之后，我终于发现原来 Termux 的包管理工具 p">
+<meta property="og:description" content="Pandoc简单使用  1.什么是 Pandoc ?  1.简介 Pandoc 是一个基于 GPL 协议开源的免费命令行软件，由加州大学伯克利分校哲学系教授 John MacFarlane 使用 Haskell 语言开发，目前另一位核心开发者是来自德国的 Albert Krewinkel。截止 2022 年 12 月 10 日，Pandoc 的 GitHub 仓库拥有超过 27,000 个 St">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-05-03T14:30:55.000Z">
-<meta property="article:modified_time" content="2024-05-30T05:35:04.712Z">
+<meta property="article:published_time" content="2024-05-30T05:16:13.000Z">
+<meta property="article:modified_time" content="2024-05-30T05:22:49.765Z">
 <meta property="article:author" content="海星">
 <meta property="article:tag" content="技术">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>Termux简介 - 海星的沙滩</title>
+  <title>Pandoc简单使用 - 海星的沙滩</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -199,7 +199,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Termux简介"></span>
+            <span id="subtitle" data-typed-text="Pandoc简单使用"></span>
           
         </div>
 
@@ -210,8 +210,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-05-03 22:30" pubdate>
-          2024年5月3日 晚上
+        <time datetime="2024-05-30 13:16" pubdate>
+          2024年5月30日 下午
         </time>
       </span>
     
@@ -222,7 +222,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          409 字
+          448 字
         
       </span>
     
@@ -270,22 +270,37 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">Termux简介</h1>
+            <h1 id="seo-header">Pandoc简单使用</h1>
             
             
               <div class="markdown-body">
                 
-                <h1 id="termux-in-andriod"><a class="markdownIt-Anchor" href="#termux-in-andriod"></a> Termux in Andriod</h1>
-<p>Andriod 端的命令行终端：<a target="_blank" rel="noopener" href="https://termux.dev/en/">Termux</a></p>
-<p>入手了xiaomi pad 6之后，我想要在 Andriod 端做一些简单的编程开发，第一个想到的就是下载 <code>VScode</code>，但是它没有 Andriod 发行版…（不可能，我一定要在平板上跑vscode），于是我开始折腾终端环境。在被 Node.js 的发行版反复折磨之后，我终于发现原来 Termux 的包管理工具 <code>pkg</code> 中就自带了 <code>VScode</code>(code server)。嗯，看起来不错，终于能在 localhost:4000 看到熟悉的 Visual Studio code 页面了，但是这个启动速度实在太慢了，JavaScript 果然是依托。在编辑我的 bash 配置时，我使用了 vim ，从此发现新天地…由于我的电脑是游戏本，携带过于笨重，所以有时一台平板也可以成为我的开发平台，更加便携</p>
-<p>安装 Termux 之后，可以开启设备的存储权限:<code>termux-setup-storage</code><sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="[Termux-setup-storage - Termux Wiki](https://wiki.termux.com/wiki/Termux-setup-storage)">[1]</span></a></sup>, 之后使用<code>cd</code>命令导航进入<code>storage</code>目录即可</p>
-<p>接下来可以使用 Termux 的包管理工具<code>pkg</code>，首先使用<code>pkg upgrade</code>更新安装库，之后可以使用<code>pkg install</code>命令安装库:</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs textile">pkg install python c java git <br></code></pre></td></tr></table></figure>
-<p>注意<code>pkg install</code>命令可以接受多个参数</p>
-<p>简单的环境配置之后就可以进行编程开发。由于 Termux 是类 Linux 环境，支持原生 vim 编辑器，因此使用 vim 可以带来极为舒爽的编程体验，关于 vim 这里只介绍几个简单的编辑模式：</p>
-<p>按键 [i] 进入<code>insert</code>插入模式，命令行指令<code>:wq</code>保存编辑并退出，另外可以通过[h][j][k][l]控制方向，完全解放右手不碰鼠标</p>
-<section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a target="_blank" rel="noopener" href="https://wiki.termux.com/wiki/Termux-setup-storage">Termux-setup-storage - Termux Wiki</a>
-<a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>
+                <h1 id="pandoc简单使用"><a class="markdownIt-Anchor" href="#pandoc简单使用"></a> Pandoc简单使用</h1>
+<h2 id="1什么是-pandoc"><a class="markdownIt-Anchor" href="#1什么是-pandoc"></a> 1.什么是 Pandoc ?</h2>
+<h3 id="1简介"><a class="markdownIt-Anchor" href="#1简介"></a> 1.简介</h3>
+<p>Pandoc 是一个基于 <code>GPL</code> 协议开源的免费命令行软件，由加州大学伯克利分校哲学系教授 John MacFarlane 使用 <code>Haskell</code> 语言开发，目前另一位核心开发者是来自德国的 Albert Krewinkel。截止 2022 年 12 月 10 日，Pandoc 的 GitHub 仓库拥有超过 27,000 个 Star，3,000 次 Fork。</p>
+<h3 id="2下载"><a class="markdownIt-Anchor" href="#2下载"></a> 2.下载</h3>
+<h4 id="1windows"><a class="markdownIt-Anchor" href="#1windows"></a> 1.Windows</h4>
+<p>可以使用官方的<a target="_blank" rel="noopener" href="https://github.com/jgm/pandoc/releases/latest">下载程序</a>，或者在 <code>PowerShell</code> 中运行如下命令：</p>
+<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs powershell">winget install <span class="hljs-literal">--source</span> winget <span class="hljs-literal">--exact</span> <span class="hljs-literal">--id</span> JohnMacFarlane.Pandoc<br></code></pre></td></tr></table></figure>
+<h4 id="2liunx-or-macos"><a class="markdownIt-Anchor" href="#2liunx-or-macos"></a> 2.Liunx or MacOS</h4>
+<p>参见<a target="_blank" rel="noopener" href="https://pandoc.org/installing.html">官方文档</a></p>
+<h3 id="3功能文本转换的瑞士军刀"><a class="markdownIt-Anchor" href="#3功能文本转换的瑞士军刀"></a> 3.功能——文本转换的“瑞士军刀”</h3>
+<p>Pandoc 可以将 markdown 文本转换成 docx, pdf 等不同格式，一个简单的命令示范如下：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">pandoc test_markdown.md -o test_docx.docx<br></code></pre></td></tr></table></figure>
+<p>其中，<code>pandoc</code> 命令启用 <code>pandoc</code> 命令行工具，<code>-o</code> 是选项 <code>--output</code> 的简写，可以转换文档格式。</p>
+<p>转换生成的 <code>test_docx.docx</code> 文件将会放置在工作目录下。注意，<code>pandoc</code> 生成的 <code>.docx</code> 文件将会丢失原文件中的超链接，因此对于纯文本文件比较适用。</p>
+<p>Pandoc 也可以将 markdown 转换成 pdf 格式，但是需要用户提供 latex 引擎。一个理想的引擎是 xelatex ，对于中文的支持更好，可以通过安装 TexLive 获得。一个使用 xelatex 引擎进行转换的例子如下：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">pandoc test_markdown.md -o test_pdf.pdf --pdf-engine=xelatex<br></code></pre></td></tr></table></figure>
+<p>由于系统字体不同，pandoc 可能会报错，需要装对于中文支持更好的字体。</p>
+<p>Pandoc 也提供了自定义的选项，用户可以自建模板对 pdf 进行格式化，比如使用 <code>eisvogel</code> 模板：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">pandoc test_markdown.md -o test_pdf.pdf --pdf-engine=xelatex -template=template/eisvogel.latex<br></code></pre></td></tr></table></figure>
+<p>这里将模板存放在工作目录中的 <code>template</code> 文件夹中，执行命令就可以看到输出的 pdf 文件了。</p>
+<h2 id="2pandoc扩展知识"><a class="markdownIt-Anchor" href="#2pandoc扩展知识"></a> 2.Pandoc扩展知识</h2>
+<h3 id="pandoc-官方文档"><a class="markdownIt-Anchor" href="#pandoc-官方文档"></a> <a target="_blank" rel="noopener" href="https://pandoc.org/getting-started.html">Pandoc 官方文档</a></h3>
+<h3 id="pandoc-从入门到精通少数派"><a class="markdownIt-Anchor" href="#pandoc-从入门到精通少数派"></a> <a target="_blank" rel="noopener" href="https://sspai.com/post/77206">Pandoc 从入门到精通|少数派</a></h3>
+<h3 id="从-markdown-到-pandoc"><a class="markdownIt-Anchor" href="#从-markdown-到-pandoc"></a> <a target="_blank" rel="noopener" href="https://sspai.com/post/64842">从 Markdown 到 Pandoc</a></h3>
+
                 
               </div>
             
@@ -309,8 +324,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Termux简介</div>
-      <div>http://starfish233e.github.io/2024/05/03/Andriod端的编程开发——termux简介/</div>
+      <div>Pandoc简单使用</div>
+      <div>http://starfish233e.github.io/2024/05/30/Pandoc简单使用/</div>
     </div>
     <div class="license-meta">
       
@@ -322,7 +337,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2024年5月3日</div>
+          <div>2024年5月30日</div>
         </div>
       
       
@@ -354,9 +369,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/05/03/%E6%89%93%E5%AD%97%E7%BD%91%E7%AB%99%E5%88%86%E4%BA%AB/" title="打字网站分享">
+                      <a href="/2024/05/30/Markdown%E5%86%99%E4%BD%9C/" title="Markdown写作">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">打字网站分享</span>
+                        <span class="hidden-mobile">Markdown写作</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -364,8 +379,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/03/30/git%E5%91%BD%E4%BB%A4%E7%AE%80%E8%AE%B0/" title="git命令简记">
-                        <span class="hidden-mobile">git命令简记</span>
+                      <a href="/2024/05/26/%E4%B8%BA%E4%BA%86%E5%9C%A8%E6%A2%A6%E9%87%8C%E9%A3%9E%E7%BF%94/" title="为了在梦里飞翔">
+                        <span class="hidden-mobile">为了在梦里飞翔</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
