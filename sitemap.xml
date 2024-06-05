@@ -20,9 +20,18 @@
 
   
   <url>
+    <loc>http://starfish233e.github.io/2024/06/05/ospp%E7%94%B3%E8%AF%B7%E4%B9%A6%E5%86%99%E4%BD%9C/</loc>
+    
+    <lastmod>2024-06-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://starfish233e.github.io/2024/06/04/%E6%A1%8C%E9%9D%A2%E7%BE%8E%E5%8C%96/</loc>
     
-    <lastmod>2024-06-04</lastmod>
+    <lastmod>2024-06-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -145,7 +154,21 @@
   </url>
   
   <url>
+    <loc>http://starfish233e.github.io/tags/ospp/</loc>
+    <lastmod>2024-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://starfish233e.github.io/tags/dream/</loc>
+    <lastmod>2024-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://starfish233e.github.io/tags/%E7%BE%8E%E5%8C%96-Windows-vscode/</loc>
     <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -165,13 +188,6 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>http://starfish233e.github.io/tags/%E7%BE%8E%E5%8C%96-Windows-vscode/</loc>
-    <lastmod>2024-06-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
@@ -182,14 +198,14 @@
   </url>
   
   <url>
-    <loc>http://starfish233e.github.io/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>http://starfish233e.github.io/categories/%E6%8A%80%E6%9C%AF/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://starfish233e.github.io/categories/%E6%8A%80%E6%9C%AF/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>http://starfish233e.github.io/categories/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2024-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
