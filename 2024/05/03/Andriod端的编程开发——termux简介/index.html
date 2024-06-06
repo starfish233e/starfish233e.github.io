@@ -16,12 +16,12 @@
   <meta name="author" content="海星">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Termux in Andriod Andriod 端的命令行终端：Termux 入手了xiaomi pad 6之后，我想要在 Andriod 端做一些简单的编程开发，第一个想到的就是下载 VScode，但是它没有 Andriod 发行版…（不可能，我一定要在平板上跑vscode），于是我开始折腾终端环境。在被 Node.js 的发行版反复折磨之后，我终于发现原来 Termux 的包管理工具 p">
+    <meta name="description" content="Termux in AndriodAndriod 端的命令行终端：Termux 入手了xiaomi pad 6之后，我想要在 Andriod 端做一些简单的编程开发，第一个想到的就是下载 VScode，但是它没有 Andriod 发行版……（不可能，我一定要在平板上跑vscode），于是我开始折腾终端环境。在被 Node.js 的发行版反复折磨之后，我终于发现原来 Termux 的包管理工具 pk">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Termux简介">
 <meta property="og:url" content="https://hxzsty233.com/2024/05/03/Andriod%E7%AB%AF%E7%9A%84%E7%BC%96%E7%A8%8B%E5%BC%80%E5%8F%91%E2%80%94%E2%80%94termux%E7%AE%80%E4%BB%8B/index.html">
 <meta property="og:site_name" content="海星的沙滩">
-<meta property="og:description" content="Termux in Andriod Andriod 端的命令行终端：Termux 入手了xiaomi pad 6之后，我想要在 Andriod 端做一些简单的编程开发，第一个想到的就是下载 VScode，但是它没有 Andriod 发行版…（不可能，我一定要在平板上跑vscode），于是我开始折腾终端环境。在被 Node.js 的发行版反复折磨之后，我终于发现原来 Termux 的包管理工具 p">
+<meta property="og:description" content="Termux in AndriodAndriod 端的命令行终端：Termux 入手了xiaomi pad 6之后，我想要在 Andriod 端做一些简单的编程开发，第一个想到的就是下载 VScode，但是它没有 Andriod 发行版……（不可能，我一定要在平板上跑vscode），于是我开始折腾终端环境。在被 Node.js 的发行版反复折磨之后，我终于发现原来 Termux 的包管理工具 pk">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-05-03T14:30:55.000Z">
 <meta property="article:modified_time" content="2024-06-02T12:25:20.142Z">
@@ -316,9 +316,8 @@
             
               <div class="markdown-body">
                 
-                <h1 id="termux-in-andriod"><a class="markdownIt-Anchor" href="#termux-in-andriod"></a> Termux in Andriod</h1>
-<p>Andriod 端的命令行终端：<a target="_blank" rel="noopener" href="https://termux.dev/en/">Termux</a></p>
-<p>入手了xiaomi pad 6之后，我想要在 Andriod 端做一些简单的编程开发，第一个想到的就是下载 <code>VScode</code>，但是它没有 Andriod 发行版…（不可能，我一定要在平板上跑vscode），于是我开始折腾终端环境。在被 Node.js 的发行版反复折磨之后，我终于发现原来 Termux 的包管理工具 <code>pkg</code> 中就自带了 <code>VScode</code>(code server)。嗯，看起来不错，终于能在 localhost:4000 看到熟悉的 Visual Studio code 页面了，但是这个启动速度实在太慢了，JavaScript 果然是依托。在编辑我的 bash 配置时，我使用了 vim ，从此发现新天地…由于我的电脑是游戏本，携带过于笨重，所以有时一台平板也可以成为我的开发平台，更加便携</p>
+                <h1 id="Termux-in-Andriod"><a href="#Termux-in-Andriod" class="headerlink" title="Termux in Andriod"></a>Termux in Andriod</h1><p>Andriod 端的命令行终端：<a target="_blank" rel="noopener" href="https://termux.dev/en/">Termux</a></p>
+<p>入手了xiaomi pad 6之后，我想要在 Andriod 端做一些简单的编程开发，第一个想到的就是下载 <code>VScode</code>，但是它没有 Andriod 发行版……（不可能，我一定要在平板上跑vscode），于是我开始折腾终端环境。在被 Node.js 的发行版反复折磨之后，我终于发现原来 Termux 的包管理工具 <code>pkg</code> 中就自带了 <code>VScode</code>(code server)。嗯，看起来不错，终于能在 localhost:4000 看到熟悉的 Visual Studio code 页面了，但是这个启动速度实在太慢了，JavaScript 果然是依托。在编辑我的 bash 配置时，我使用了 vim ，从此发现新天地……由于我的电脑是游戏本，携带过于笨重，所以有时一台平板也可以成为我的开发平台，更加便携</p>
 <p>安装 Termux 之后，可以开启设备的存储权限:<code>termux-setup-storage</code><sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="[Termux-setup-storage - Termux Wiki](https://wiki.termux.com/wiki/Termux-setup-storage)">[1]</span></a></sup>, 之后使用 <code>cd</code>命令导航进入 <code>storage</code>目录即可</p>
 <p>接下来可以使用 Termux 的包管理工具 <code>pkg</code>，首先使用 <code>pkg upgrade</code>更新安装库，之后可以使用 <code>pkg install</code>命令安装库:</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs textile">pkg install python c java git <br></code></pre></td></tr></table></figure>

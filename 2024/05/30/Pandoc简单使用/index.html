@@ -16,12 +16,12 @@
   <meta name="author" content="海星">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Pandoc简单使用  1.什么是 Pandoc ?  1.简介 Pandoc 是一个基于 GPL 协议开源的免费命令行软件，由加州大学伯克利分校哲学系教授 John MacFarlane 使用 Haskell 语言开发，目前另一位核心开发者是来自德国的 Albert Krewinkel。截止 2022 年 12 月 10 日，Pandoc 的 GitHub 仓库拥有超过 27,000 个 St">
+    <meta name="description" content="Pandoc简单使用1.什么是 Pandoc ?1.简介Pandoc 是一个基于 GPL 协议开源的免费命令行软件，由加州大学伯克利分校哲学系教授 John MacFarlane 使用 Haskell 语言开发，目前另一位核心开发者是来自德国的 Albert Krewinkel。截止 2022 年 12 月 10 日，Pandoc 的 GitHub 仓库拥有超过 27,000 个 Star，3,0">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Pandoc简单使用">
 <meta property="og:url" content="https://hxzsty233.com/2024/05/30/Pandoc%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/index.html">
 <meta property="og:site_name" content="海星的沙滩">
-<meta property="og:description" content="Pandoc简单使用  1.什么是 Pandoc ?  1.简介 Pandoc 是一个基于 GPL 协议开源的免费命令行软件，由加州大学伯克利分校哲学系教授 John MacFarlane 使用 Haskell 语言开发，目前另一位核心开发者是来自德国的 Albert Krewinkel。截止 2022 年 12 月 10 日，Pandoc 的 GitHub 仓库拥有超过 27,000 个 St">
+<meta property="og:description" content="Pandoc简单使用1.什么是 Pandoc ?1.简介Pandoc 是一个基于 GPL 协议开源的免费命令行软件，由加州大学伯克利分校哲学系教授 John MacFarlane 使用 Haskell 语言开发，目前另一位核心开发者是来自德国的 Albert Krewinkel。截止 2022 年 12 月 10 日，Pandoc 的 GitHub 仓库拥有超过 27,000 个 Star，3,0">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-05-30T05:16:13.000Z">
 <meta property="article:modified_time" content="2024-06-03T00:16:24.183Z">
@@ -316,18 +316,11 @@
             
               <div class="markdown-body">
                 
-                <h1 id="pandoc简单使用"><a class="markdownIt-Anchor" href="#pandoc简单使用"></a> Pandoc简单使用</h1>
-<h2 id="1什么是-pandoc"><a class="markdownIt-Anchor" href="#1什么是-pandoc"></a> 1.什么是 Pandoc ?</h2>
-<h3 id="1简介"><a class="markdownIt-Anchor" href="#1简介"></a> 1.简介</h3>
-<p>Pandoc 是一个基于 <code>GPL</code> 协议开源的免费命令行软件，由加州大学伯克利分校哲学系教授 John MacFarlane 使用 <code>Haskell</code> 语言开发，目前另一位核心开发者是来自德国的 Albert Krewinkel。截止 2022 年 12 月 10 日，Pandoc 的 GitHub 仓库拥有超过 27,000 个 Star，3,000 次 Fork。</p>
-<h3 id="2下载"><a class="markdownIt-Anchor" href="#2下载"></a> 2.下载</h3>
-<h4 id="1windows"><a class="markdownIt-Anchor" href="#1windows"></a> 1.Windows</h4>
-<p>可以使用官方的<a target="_blank" rel="noopener" href="https://github.com/jgm/pandoc/releases/latest">下载程序</a>，或者在 <code>PowerShell</code> 中运行如下命令：</p>
+                <h1 id="Pandoc简单使用"><a href="#Pandoc简单使用" class="headerlink" title="Pandoc简单使用"></a>Pandoc简单使用</h1><h2 id="1-什么是-Pandoc"><a href="#1-什么是-Pandoc" class="headerlink" title="1.什么是 Pandoc ?"></a>1.什么是 Pandoc ?</h2><h3 id="1-简介"><a href="#1-简介" class="headerlink" title="1.简介"></a>1.简介</h3><p>Pandoc 是一个基于 <code>GPL</code> 协议开源的免费命令行软件，由加州大学伯克利分校哲学系教授 John MacFarlane 使用 <code>Haskell</code> 语言开发，目前另一位核心开发者是来自德国的 Albert Krewinkel。截止 2022 年 12 月 10 日，Pandoc 的 GitHub 仓库拥有超过 27,000 个 Star，3,000 次 Fork。</p>
+<h3 id="2-下载"><a href="#2-下载" class="headerlink" title="2.下载"></a>2.下载</h3><h4 id="1-Windows"><a href="#1-Windows" class="headerlink" title="1.Windows"></a>1.Windows</h4><p>可以使用官方的<a target="_blank" rel="noopener" href="https://github.com/jgm/pandoc/releases/latest">下载程序</a>，或者在 <code>PowerShell</code> 中运行如下命令：</p>
 <figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs powershell">winget install <span class="hljs-literal">--source</span> winget <span class="hljs-literal">--exact</span> <span class="hljs-literal">--id</span> JohnMacFarlane.Pandoc<br></code></pre></td></tr></table></figure>
-<h4 id="2liunx-or-macos"><a class="markdownIt-Anchor" href="#2liunx-or-macos"></a> 2.Liunx or MacOS</h4>
-<p>参见<a target="_blank" rel="noopener" href="https://pandoc.org/installing.html">官方文档</a></p>
-<h3 id="3功能文本转换的瑞士军刀"><a class="markdownIt-Anchor" href="#3功能文本转换的瑞士军刀"></a> 3.功能——文本转换的“瑞士军刀”</h3>
-<p>Pandoc 可以将 markdown 文本转换成 docx, pdf 等不同格式，一个简单的命令示范如下：</p>
+<h4 id="2-Liunx-or-MacOS"><a href="#2-Liunx-or-MacOS" class="headerlink" title="2.Liunx or MacOS"></a>2.Liunx or MacOS</h4><p>参见<a target="_blank" rel="noopener" href="https://pandoc.org/installing.html">官方文档</a></p>
+<h3 id="3-功能——文本转换的“瑞士军刀”"><a href="#3-功能——文本转换的“瑞士军刀”" class="headerlink" title="3.功能——文本转换的“瑞士军刀”"></a>3.功能——文本转换的“瑞士军刀”</h3><p>Pandoc 可以将 markdown 文本转换成 docx, pdf 等不同格式，一个简单的命令示范如下：</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">pandoc test_markdown.md -o test_docx.docx<br></code></pre></td></tr></table></figure>
 <p>其中，<code>pandoc</code> 命令启用 <code>pandoc</code> 命令行工具，<code>-o</code> 是选项 <code>--output</code> 的简写，可以转换文档格式。</p>
 <p>转换生成的 <code>test_docx.docx</code> 文件将会放置在工作目录下。注意，<code>pandoc</code> 生成的 <code>.docx</code> 文件将会丢失原文件中的超链接，因此对于纯文本文件比较适用。</p>
@@ -337,11 +330,7 @@
 <p>Pandoc 也提供了自定义的选项，用户可以自建模板对 pdf 进行格式化，比如使用 <code>eisvogel</code> 模板：</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">pandoc test_markdown.md -o test_pdf.pdf --pdf-engine=xelatex -template=template/eisvogel.latex<br></code></pre></td></tr></table></figure>
 <p>这里将模板存放在工作目录中的 <code>template</code> 文件夹中，执行命令就可以看到输出的 pdf 文件了。</p>
-<h2 id="2pandoc扩展知识"><a class="markdownIt-Anchor" href="#2pandoc扩展知识"></a> 2.Pandoc扩展知识</h2>
-<h3 id="pandoc-官方文档"><a class="markdownIt-Anchor" href="#pandoc-官方文档"></a> <a target="_blank" rel="noopener" href="https://pandoc.org/getting-started.html">Pandoc 官方文档</a></h3>
-<h3 id="pandoc-从入门到精通少数派"><a class="markdownIt-Anchor" href="#pandoc-从入门到精通少数派"></a> <a target="_blank" rel="noopener" href="https://sspai.com/post/77206">Pandoc 从入门到精通|少数派</a></h3>
-<h3 id="从-markdown-到-pandoc"><a class="markdownIt-Anchor" href="#从-markdown-到-pandoc"></a> <a target="_blank" rel="noopener" href="https://sspai.com/post/64842">从 Markdown 到 Pandoc</a></h3>
-
+<h2 id="2-Pandoc扩展知识"><a href="#2-Pandoc扩展知识" class="headerlink" title="2.Pandoc扩展知识"></a>2.Pandoc扩展知识</h2><h3 id="Pandoc-官方文档"><a href="#Pandoc-官方文档" class="headerlink" title="Pandoc 官方文档"></a><a target="_blank" rel="noopener" href="https://pandoc.org/getting-started.html">Pandoc 官方文档</a></h3><h3 id="Pandoc-从入门到精通-少数派"><a href="#Pandoc-从入门到精通-少数派" class="headerlink" title="Pandoc 从入门到精通|少数派"></a><a target="_blank" rel="noopener" href="https://sspai.com/post/77206">Pandoc 从入门到精通|少数派</a></h3><h3 id="从-Markdown-到-Pandoc"><a href="#从-Markdown-到-Pandoc" class="headerlink" title="从 Markdown 到 Pandoc"></a><a target="_blank" rel="noopener" href="https://sspai.com/post/64842">从 Markdown 到 Pandoc</a></h3>
                 
               </div>
             
