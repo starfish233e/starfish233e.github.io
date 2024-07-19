@@ -2,6 +2,7 @@ https://hxzsty233.com/
 https://hxzsty233.com/ppt/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-1.html
 https://hxzsty233.com/about/index.html
 
+https://hxzsty233.com/2024/07/19/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-3/
 https://hxzsty233.com/2024/07/10/%E5%A4%8F%E5%AD%A3%E6%88%90%E9%83%BD-%E9%87%8D%E5%BA%86%E6%97%85%E8%A1%8C%E6%94%BB%E7%95%A5/
 https://hxzsty233.com/2024/07/15/7%E6%9C%88%E4%B8%8A%E5%8D%8A%E5%B0%8F%E7%BB%93/
 https://hxzsty233.com/2024/07/02/%E5%87%86%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%9A%91%E5%81%87%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/
@@ -23,24 +24,24 @@ https://hxzsty233.com/2024/03/30/git%E5%91%BD%E4%BB%A4%E7%AE%80%E8%AE%B0/
 https://hxzsty233.com/2024/03/08/hello-world/
 
 https://hxzsty233.com/tags/%E9%AB%98%E8%80%83/
-https://hxzsty233.com/tags/Termux/
-https://hxzsty233.com/tags/Andriod/
-https://hxzsty233.com/tags/markdown/
 https://hxzsty233.com/tags/Pandoc/
 https://hxzsty233.com/tags/%E6%96%87%E6%A1%A3%E8%BD%AC%E6%8D%A2/
+https://hxzsty233.com/tags/Termux/
+https://hxzsty233.com/tags/Andriod/
 https://hxzsty233.com/tags/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/
-https://hxzsty233.com/tags/git/
-https://hxzsty233.com/tags/dream/
+https://hxzsty233.com/tags/markdown/
 https://hxzsty233.com/tags/ospp/
-https://hxzsty233.com/tags/%E5%BB%BA%E8%AE%AE/
+https://hxzsty233.com/tags/git/
 https://hxzsty233.com/tags/blog/
+https://hxzsty233.com/tags/dream/
+https://hxzsty233.com/tags/%E5%BB%BA%E8%AE%AE/
+https://hxzsty233.com/tags/typing/
 https://hxzsty233.com/tags/%E5%9B%9B%E5%B7%9D/
 https://hxzsty233.com/tags/%E6%88%90%E9%83%BD/
 https://hxzsty233.com/tags/%E9%87%8D%E5%BA%86/
 https://hxzsty233.com/tags/%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B/
 https://hxzsty233.com/tags/%E6%A2%A6/
 https://hxzsty233.com/tags/Starship/
-https://hxzsty233.com/tags/typing/
 https://hxzsty233.com/tags/%E7%BE%8E%E5%8C%96-Windows-vscode/
 https://hxzsty233.com/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/
 https://hxzsty233.com/tags/clash/
