@@ -16,22 +16,27 @@
   <meta name="author" content="海星">
   <meta name="keywords" content="">
   
-    <meta name="description" content="秋日前哨 气温陡降。早上下楼就感到沁入骨髓的寒气，不过吃完早饭我就要骑车，运动起来自然也不需要厚重的衣服。何况骑到中西医结合医院之后，有了空调和暖气，自然也不会冷。 这次来医院还是看耳朵，自从上次左耳诊出外耳道真菌感染之后，我就一直惶惶不安，担心自己的左耳也步右耳的后尘，被真菌部落入侵。这二十多天来，我时不时得觉得右耳耳内有痒痒的感觉，而且耳屎也比往常增多，使我加深了怀疑。国庆之后我自己买了一个">
+    <meta name="description" content="画图是使用 LaTeX\LaTeXLATE​X 的痛点 如何精确地画图，是 LaTeX\LaTeXLATE​X 中一大难题。数学绘图软件如 Mathmetica, Matlab, Geogebra等都使用自己的编程语言，以及相应的绘图库（library）进行支持，而 LaTeX\LaTeXLATE​X 中使用的编程系统就是 TikZ, 一种绘图宏包。使用编程语言绘制平面几何图形从来不是一件简单的">
 <meta property="og:type" content="article">
-<meta property="og:title" content="凉风起秋末">
-<meta property="og:url" content="https://hxzsty233.com/2024/10/19/%E5%87%89%E9%A3%8E%E8%B5%B7%E7%A7%8B%E6%9C%AB/index.html">
+<meta property="og:title" content="TikZ 使用初体验">
+<meta property="og:url" content="https://hxzsty233.com/2024/11/19/TikZ-%E4%BD%BF%E7%94%A8%E5%88%9D%E4%BD%93%E9%AA%8C/index.html">
 <meta property="og:site_name" content="海星的沙滩">
-<meta property="og:description" content="秋日前哨 气温陡降。早上下楼就感到沁入骨髓的寒气，不过吃完早饭我就要骑车，运动起来自然也不需要厚重的衣服。何况骑到中西医结合医院之后，有了空调和暖气，自然也不会冷。 这次来医院还是看耳朵，自从上次左耳诊出外耳道真菌感染之后，我就一直惶惶不安，担心自己的左耳也步右耳的后尘，被真菌部落入侵。这二十多天来，我时不时得觉得右耳耳内有痒痒的感觉，而且耳屎也比往常增多，使我加深了怀疑。国庆之后我自己买了一个">
+<meta property="og:description" content="画图是使用 LaTeX\LaTeXLATE​X 的痛点 如何精确地画图，是 LaTeX\LaTeXLATE​X 中一大难题。数学绘图软件如 Mathmetica, Matlab, Geogebra等都使用自己的编程语言，以及相应的绘图库（library）进行支持，而 LaTeX\LaTeXLATE​X 中使用的编程系统就是 TikZ, 一种绘图宏包。使用编程语言绘制平面几何图形从来不是一件简单的">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-10-19T10:32:46.000Z">
-<meta property="article:modified_time" content="2024-10-19T10:52:36.476Z">
+<meta property="og:image" content="https://hxzsty233.com/downloads/%E7%9B%92%E5%8F%8B%E7%9A%84%E5%B0%8F%E9%9A%BE%E9%A2%98.pdf">
+<meta property="og:image" content="https://hxzsty233.com/img/%E7%9B%92%E5%8F%8B%E7%9A%84%E5%B0%8F%E9%9A%BE%E9%A2%98_%E9%A1%B5%E9%9D%A2_1.png">
+<meta property="og:image" content="https://hxzsty233.com/img/%E7%9B%92%E5%8F%8B%E7%9A%84%E5%B0%8F%E9%9A%BE%E9%A2%98_%E9%A1%B5%E9%9D%A2_2.png">
+<meta property="og:image" content="https://hxzsty233.com/img/%E7%9B%92%E5%8F%8B%E7%9A%84%E5%B0%8F%E9%9A%BE%E9%A2%98_%E9%A1%B5%E9%9D%A2_3.png">
+<meta property="article:published_time" content="2024-11-19T12:46:32.000Z">
+<meta property="article:modified_time" content="2024-11-19T13:18:43.269Z">
 <meta property="article:author" content="海星">
-<meta property="article:tag" content="秋天">
+<meta property="article:tag" content="LaTeX">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://hxzsty233.com/downloads/%E7%9B%92%E5%8F%8B%E7%9A%84%E5%B0%8F%E9%9A%BE%E9%A2%98.pdf">
   
   
   
-  <title>凉风起秋末 - 海星的沙滩</title>
+  <title>TikZ 使用初体验 - 海星的沙滩</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -237,7 +242,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="凉风起秋末"></span>
+            <span id="subtitle" data-typed-text="TikZ 使用初体验"></span>
           
         </div>
 
@@ -248,8 +253,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-10-19 18:32" pubdate>
-          2024年10月19日 晚上
+        <time datetime="2024-11-19 20:46" pubdate>
+          2024年11月19日 晚上
         </time>
       </span>
     
@@ -260,7 +265,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          736 字
+          499 字
         
       </span>
     
@@ -271,7 +276,7 @@
         
         
         
-          7 分钟
+          5 分钟
         
       </span>
     
@@ -308,20 +313,20 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">凉风起秋末</h1>
+            <h1 id="seo-header">TikZ 使用初体验</h1>
             
             
               <div class="markdown-body">
                 
-                <h2 id="秋日前哨"><a class="markdownIt-Anchor" href="#秋日前哨"></a> 秋日前哨</h2>
-<p>气温陡降。早上下楼就感到沁入骨髓的寒气，不过吃完早饭我就要骑车，运动起来自然也不需要厚重的衣服。何况骑到中西医结合医院之后，有了空调和暖气，自然也不会冷。</p>
-<p>这次来医院还是看耳朵，自从上次左耳诊出外耳道真菌感染之后，我就一直惶惶不安，担心自己的左耳也步右耳的后尘，被真菌部落入侵。这二十多天来，我时不时得觉得右耳耳内有痒痒的感觉，而且耳屎也比往常增多，使我加深了怀疑。国庆之后我自己买了一个可视挖耳勺，自己伸进耳道里看。右耳深处隐隐约约地有黑影，因为耳勺的摄像头无法深入耳道，看不清楚黑影是什么，不知道是不是霉菌的分泌物。这使我下定决心今天早晨去医院看看。</p>
-<h2 id="医院复诊"><a class="markdownIt-Anchor" href="#医院复诊"></a> 医院复诊</h2>
-<p>这次复诊的流程出乎意料地顺利，挂号、签到、等候都没有遇到困难，很快就到了我的号。然后是做耳内镜检查，因为医保这次只花了 54 块。等了耳镜的医生一会，然后我就被叫进了耳鼻喉镜检查室，坐在板凳上等待医生完成消毒。医生用碘液擦拭着耳镜，随后伸进了我的右耳，很快就拿出来了。医生告诉我右耳没有问题，之后是我的左耳，上次上过药之后鼓膜那边就结痂了，我说要不清理一下吧。于是接下来就是清理，医生用一个吸耳器在我的耳道深处工作，稍微有点疼痛，但是很快就结束了。这次的医生都很和蔼，让我感觉很亲切，也没有乱开药，我觉得很舒服。</p>
-<h2 id="市博参观"><a class="markdownIt-Anchor" href="#市博参观"></a> 市博参观</h2>
-<p>下午去了朝天宫。因为之前报名了志愿者，所以周末有时间就抓紧去实地看了。这次非常幸运地赶上了博物馆老师的志愿讲解，了解到了很多新知识，很多都是我自己的讲解稿上没有的，全程都在备忘录上记录，收获满满。自己背稿子枯燥又无聊，看别人讲解更容易记住，而且有了模板可以学习。老师带我们讲了 2 个小时，从头到尾都没有喝一口水，一直在讲解，非常让人佩服。讲解结束之后，我们听讲的游客一齐给老师鼓起掌来，让我非常感动。志愿讲解没有物质的酬劳，但是精神上的回报却是不可估量的。这就是我喜欢这项志愿的原因吧。</p>
-<h2 id="秋日"><a class="markdownIt-Anchor" href="#秋日"></a> 秋日</h2>
-<p>又是一年秋天，你看，没有你，我也可以活的很精彩。</p>
+                <h2 id="画图是使用-latex-的痛点"><a class="markdownIt-Anchor" href="#画图是使用-latex-的痛点"></a> 画图是使用 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>LaTeX</mtext></mrow><annotation encoding="application/x-tex">\LaTeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89883em;vertical-align:-0.2155em;"></span><span class="mord text"><span class="mord textrm">L</span><span class="mspace" style="margin-right:-0.36em;"></span><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.68333em;"><span style="top:-2.904999em;"><span class="pstrut" style="height:2.7em;"></span><span class="mord"><span class="mord textrm mtight sizing reset-size6 size3">A</span></span></span></span></span></span><span class="mspace" style="margin-right:-0.15em;"></span><span class="mord text"><span class="mord textrm">T</span><span class="mspace" style="margin-right:-0.1667em;"></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord textrm">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2155em;"><span></span></span></span></span><span class="mspace" style="margin-right:-0.125em;"></span><span class="mord textrm">X</span></span></span></span></span></span> 的痛点</h2>
+<p>如何精确地画图，是 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>LaTeX</mtext></mrow><annotation encoding="application/x-tex">\LaTeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89883em;vertical-align:-0.2155em;"></span><span class="mord text"><span class="mord textrm">L</span><span class="mspace" style="margin-right:-0.36em;"></span><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.68333em;"><span style="top:-2.904999em;"><span class="pstrut" style="height:2.7em;"></span><span class="mord"><span class="mord textrm mtight sizing reset-size6 size3">A</span></span></span></span></span></span><span class="mspace" style="margin-right:-0.15em;"></span><span class="mord text"><span class="mord textrm">T</span><span class="mspace" style="margin-right:-0.1667em;"></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord textrm">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2155em;"><span></span></span></span></span><span class="mspace" style="margin-right:-0.125em;"></span><span class="mord textrm">X</span></span></span></span></span></span> 中一大难题。数学绘图软件如 <strong>Mathmetica, Matlab, Geogebra</strong>等都使用自己的编程语言，以及相应的绘图库（library）进行支持，而 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>LaTeX</mtext></mrow><annotation encoding="application/x-tex">\LaTeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89883em;vertical-align:-0.2155em;"></span><span class="mord text"><span class="mord textrm">L</span><span class="mspace" style="margin-right:-0.36em;"></span><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.68333em;"><span style="top:-2.904999em;"><span class="pstrut" style="height:2.7em;"></span><span class="mord"><span class="mord textrm mtight sizing reset-size6 size3">A</span></span></span></span></span></span><span class="mspace" style="margin-right:-0.15em;"></span><span class="mord text"><span class="mord textrm">T</span><span class="mspace" style="margin-right:-0.1667em;"></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord textrm">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2155em;"><span></span></span></span></span><span class="mspace" style="margin-right:-0.125em;"></span><span class="mord textrm">X</span></span></span></span></span></span> 中使用的编程系统就是 TikZ, 一种绘图宏包。使用编程语言绘制平面几何图形从来不是一件简单的事情，甚至可以说费时费力有些得不偿失，但是从代码的统一性上来说，用编程语言画图可以省去切换软件和形象思维的麻烦，也能够做到更精确的绘制。</p>
+<h2 id="我和-tikz-的缘分"><a class="markdownIt-Anchor" href="#我和-tikz-的缘分"></a> 我和 TikZ 的缘分</h2>
+<p>TikZ 的大名在我已是久仰，刚刚接触 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>LaTeX</mtext></mrow><annotation encoding="application/x-tex">\LaTeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89883em;vertical-align:-0.2155em;"></span><span class="mord text"><span class="mord textrm">L</span><span class="mspace" style="margin-right:-0.36em;"></span><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.68333em;"><span style="top:-2.904999em;"><span class="pstrut" style="height:2.7em;"></span><span class="mord"><span class="mord textrm mtight sizing reset-size6 size3">A</span></span></span></span></span></span><span class="mspace" style="margin-right:-0.15em;"></span><span class="mord text"><span class="mord textrm">T</span><span class="mspace" style="margin-right:-0.1667em;"></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord textrm">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2155em;"><span></span></span></span></span><span class="mspace" style="margin-right:-0.125em;"></span><span class="mord textrm">X</span></span></span></span></span></span> 的时候, 我就已经听说了 TikZ。作为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>TeX</mtext></mrow><annotation encoding="application/x-tex">\TeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89883em;vertical-align:-0.2155em;"></span><span class="mord text"><span class="mord textrm">T</span><span class="mspace" style="margin-right:-0.1667em;"></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord textrm">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2155em;"><span></span></span></span></span><span class="mspace" style="margin-right:-0.125em;"></span><span class="mord textrm">X</span></span></span></span></span> 排版系统中最负盛名的绘图宏包，TikZ 勾起了我内心深处的渴望。然而，作为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>TeX</mtext></mrow><annotation encoding="application/x-tex">\TeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89883em;vertical-align:-0.2155em;"></span><span class="mord text"><span class="mord textrm">T</span><span class="mspace" style="margin-right:-0.1667em;"></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord textrm">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2155em;"><span></span></span></span></span><span class="mspace" style="margin-right:-0.125em;"></span><span class="mord textrm">X</span></span></span></span></span> 的一个组成部分，TikZ 也继承了它的繁杂庞大，学习成本可谓非常高昂。仅仅是参考手册就长达数千页，浩如烟海的文本简直令人望而却步。于是我在很长一段时间内都没有想过去学习它，遇到需要绘图的场景也选择其他绘图工具，直到最近我偶然遇到了一道数学问题。这道问题以高中平面几何为背景，需要绘制的图形非常简单，而 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>TeX</mtext></mrow><annotation encoding="application/x-tex">\TeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89883em;vertical-align:-0.2155em;"></span><span class="mord text"><span class="mord textrm">T</span><span class="mspace" style="margin-right:-0.1667em;"></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord textrm">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2155em;"><span></span></span></span></span><span class="mspace" style="margin-right:-0.125em;"></span><span class="mord textrm">X</span></span></span></span></span> 文档对于插入图片的支持又是令人印象深刻的糟糕，这使得我决定使用 TikZ 来画图。</p>
+<p>学习 TikZ 的过程比想象中要轻松，虽然遇到了些许问题卡壳了许久，但是仍然能通过查找资料和询问网友解决。最终看到成品的 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>LaTeX</mtext></mrow><annotation encoding="application/x-tex">\LaTeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89883em;vertical-align:-0.2155em;"></span><span class="mord text"><span class="mord textrm">L</span><span class="mspace" style="margin-right:-0.36em;"></span><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.68333em;"><span style="top:-2.904999em;"><span class="pstrut" style="height:2.7em;"></span><span class="mord"><span class="mord textrm mtight sizing reset-size6 size3">A</span></span></span></span></span></span><span class="mspace" style="margin-right:-0.15em;"></span><span class="mord text"><span class="mord textrm">T</span><span class="mspace" style="margin-right:-0.1667em;"></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord textrm">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2155em;"><span></span></span></span></span><span class="mspace" style="margin-right:-0.125em;"></span><span class="mord textrm">X</span></span></span></span></span></span> 文档，对我这两天以来反复的尝试和查资料是莫大的慰藉。</p>
+<p>附上我使用 TikZ 制作的<img src="/downloads/%E7%9B%92%E5%8F%8B%E7%9A%84%E5%B0%8F%E9%9A%BE%E9%A2%98.pdf" srcset="/img/loading.gif" lazyload alt="文档" />：</p>
+<p><img src="/img/%E7%9B%92%E5%8F%8B%E7%9A%84%E5%B0%8F%E9%9A%BE%E9%A2%98_%E9%A1%B5%E9%9D%A2_1.png" srcset="/img/loading.gif" lazyload alt="第一页" /><br />
+<img src="/img/%E7%9B%92%E5%8F%8B%E7%9A%84%E5%B0%8F%E9%9A%BE%E9%A2%98_%E9%A1%B5%E9%9D%A2_2.png" srcset="/img/loading.gif" lazyload alt="第二页" /><br />
+<img src="/img/%E7%9B%92%E5%8F%8B%E7%9A%84%E5%B0%8F%E9%9A%BE%E9%A2%98_%E9%A1%B5%E9%9D%A2_3.png" srcset="/img/loading.gif" lazyload alt="第三页" /></p>
 
                 
               </div>
@@ -355,7 +360,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/%E7%A7%8B%E5%A4%A9/" class="print-no-link">#秋天</a>
+        <a href="/tags/LaTeX/" class="print-no-link">#LaTeX</a>
       
     </div>
   
@@ -367,8 +372,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>凉风起秋末</div>
-      <div>https://hxzsty233.com/2024/10/19/凉风起秋末/</div>
+      <div>TikZ 使用初体验</div>
+      <div>https://hxzsty233.com/2024/11/19/TikZ-使用初体验/</div>
     </div>
     <div class="license-meta">
       
@@ -380,7 +385,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2024年10月19日</div>
+          <div>2024年11月19日</div>
         </div>
       
       
@@ -412,18 +417,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/10/25/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E4%BB%AC%E4%BC%9A%E5%96%9C%E6%AC%A2%E7%AC%AC%E4%B9%9D%E8%89%BA%E6%9C%AF/" title="为什么我们会喜欢第九艺术">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">为什么我们会喜欢第九艺术</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/10/13/%E5%A4%A7%E8%88%AA%E6%B5%B7%E7%9A%84%E8%B5%B7%E7%82%B9%E2%80%94%E2%80%94%E8%AE%B0%E6%98%9F%E8%88%B0%E7%AC%AC%E4%BA%94%E6%AC%A1%E8%AF%95%E9%A3%9E%E6%88%90%E5%8A%9F/" title="大航海的起点——记星舰第五次试飞成功">
-                        <span class="hidden-mobile">大航海的起点——记星舰第五次试飞成功</span>
+                      <a href="/2024/10/25/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E4%BB%AC%E4%BC%9A%E5%96%9C%E6%AC%A2%E7%AC%AC%E4%B9%9D%E8%89%BA%E6%9C%AF/" title="为什么我们会喜欢第九艺术">
+                        <span class="hidden-mobile">为什么我们会喜欢第九艺术</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
