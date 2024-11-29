@@ -23,16 +23,15 @@
 <meta property="og:site_name" content="海星的沙滩">
 <meta property="og:description" content="画图是使用 LaTeX\LaTeXLATE​X 的痛点 如何精确地画图，是 LaTeX\LaTeXLATE​X 中一大难题。数学绘图软件如 Mathmetica, Matlab, Geogebra等都使用自己的编程语言，以及相应的绘图库（library）进行支持，而 LaTeX\LaTeXLATE​X 中使用的编程系统就是 TikZ, 一种绘图宏包。使用编程语言绘制平面几何图形从来不是一件简单的">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://hxzsty233.com/downloads/%E7%9B%92%E5%8F%8B%E7%9A%84%E5%B0%8F%E9%9A%BE%E9%A2%98.pdf">
 <meta property="og:image" content="https://hxzsty233.com/img/%E7%9B%92%E5%8F%8B%E7%9A%84%E5%B0%8F%E9%9A%BE%E9%A2%98_%E9%A1%B5%E9%9D%A2_1.png">
 <meta property="og:image" content="https://hxzsty233.com/img/%E7%9B%92%E5%8F%8B%E7%9A%84%E5%B0%8F%E9%9A%BE%E9%A2%98_%E9%A1%B5%E9%9D%A2_2.png">
 <meta property="og:image" content="https://hxzsty233.com/img/%E7%9B%92%E5%8F%8B%E7%9A%84%E5%B0%8F%E9%9A%BE%E9%A2%98_%E9%A1%B5%E9%9D%A2_3.png">
 <meta property="article:published_time" content="2024-11-19T12:46:32.000Z">
-<meta property="article:modified_time" content="2024-11-19T13:18:43.269Z">
+<meta property="article:modified_time" content="2024-11-29T04:36:03.610Z">
 <meta property="article:author" content="海星">
 <meta property="article:tag" content="LaTeX">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://hxzsty233.com/downloads/%E7%9B%92%E5%8F%8B%E7%9A%84%E5%B0%8F%E9%9A%BE%E9%A2%98.pdf">
+<meta name="twitter:image" content="https://hxzsty233.com/img/%E7%9B%92%E5%8F%8B%E7%9A%84%E5%B0%8F%E9%9A%BE%E9%A2%98_%E9%A1%B5%E9%9D%A2_1.png">
   
   
   
@@ -47,6 +46,8 @@
   <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/KaTeX/0.16.2/katex.min.css" />
 
 
 
@@ -265,7 +266,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          499 字
+          501 字
         
       </span>
     
@@ -323,7 +324,7 @@
 <h2 id="我和-tikz-的缘分"><a class="markdownIt-Anchor" href="#我和-tikz-的缘分"></a> 我和 TikZ 的缘分</h2>
 <p>TikZ 的大名在我已是久仰，刚刚接触 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>LaTeX</mtext></mrow><annotation encoding="application/x-tex">\LaTeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89883em;vertical-align:-0.2155em;"></span><span class="mord text"><span class="mord textrm">L</span><span class="mspace" style="margin-right:-0.36em;"></span><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.68333em;"><span style="top:-2.904999em;"><span class="pstrut" style="height:2.7em;"></span><span class="mord"><span class="mord textrm mtight sizing reset-size6 size3">A</span></span></span></span></span></span><span class="mspace" style="margin-right:-0.15em;"></span><span class="mord text"><span class="mord textrm">T</span><span class="mspace" style="margin-right:-0.1667em;"></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord textrm">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2155em;"><span></span></span></span></span><span class="mspace" style="margin-right:-0.125em;"></span><span class="mord textrm">X</span></span></span></span></span></span> 的时候, 我就已经听说了 TikZ。作为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>TeX</mtext></mrow><annotation encoding="application/x-tex">\TeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89883em;vertical-align:-0.2155em;"></span><span class="mord text"><span class="mord textrm">T</span><span class="mspace" style="margin-right:-0.1667em;"></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord textrm">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2155em;"><span></span></span></span></span><span class="mspace" style="margin-right:-0.125em;"></span><span class="mord textrm">X</span></span></span></span></span> 排版系统中最负盛名的绘图宏包，TikZ 勾起了我内心深处的渴望。然而，作为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>TeX</mtext></mrow><annotation encoding="application/x-tex">\TeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89883em;vertical-align:-0.2155em;"></span><span class="mord text"><span class="mord textrm">T</span><span class="mspace" style="margin-right:-0.1667em;"></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord textrm">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2155em;"><span></span></span></span></span><span class="mspace" style="margin-right:-0.125em;"></span><span class="mord textrm">X</span></span></span></span></span> 的一个组成部分，TikZ 也继承了它的繁杂庞大，学习成本可谓非常高昂。仅仅是参考手册就长达数千页，浩如烟海的文本简直令人望而却步。于是我在很长一段时间内都没有想过去学习它，遇到需要绘图的场景也选择其他绘图工具，直到最近我偶然遇到了一道数学问题。这道问题以高中平面几何为背景，需要绘制的图形非常简单，而 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>TeX</mtext></mrow><annotation encoding="application/x-tex">\TeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89883em;vertical-align:-0.2155em;"></span><span class="mord text"><span class="mord textrm">T</span><span class="mspace" style="margin-right:-0.1667em;"></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord textrm">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2155em;"><span></span></span></span></span><span class="mspace" style="margin-right:-0.125em;"></span><span class="mord textrm">X</span></span></span></span></span> 文档对于插入图片的支持又是令人印象深刻的糟糕，这使得我决定使用 TikZ 来画图。</p>
 <p>学习 TikZ 的过程比想象中要轻松，虽然遇到了些许问题卡壳了许久，但是仍然能通过查找资料和询问网友解决。最终看到成品的 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>LaTeX</mtext></mrow><annotation encoding="application/x-tex">\LaTeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89883em;vertical-align:-0.2155em;"></span><span class="mord text"><span class="mord textrm">L</span><span class="mspace" style="margin-right:-0.36em;"></span><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.68333em;"><span style="top:-2.904999em;"><span class="pstrut" style="height:2.7em;"></span><span class="mord"><span class="mord textrm mtight sizing reset-size6 size3">A</span></span></span></span></span></span><span class="mspace" style="margin-right:-0.15em;"></span><span class="mord text"><span class="mord textrm">T</span><span class="mspace" style="margin-right:-0.1667em;"></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord textrm">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2155em;"><span></span></span></span></span><span class="mspace" style="margin-right:-0.125em;"></span><span class="mord textrm">X</span></span></span></span></span></span> 文档，对我这两天以来反复的尝试和查资料是莫大的慰藉。</p>
-<p>附上我使用 TikZ 制作的<img src="/downloads/%E7%9B%92%E5%8F%8B%E7%9A%84%E5%B0%8F%E9%9A%BE%E9%A2%98.pdf" srcset="/img/loading.gif" lazyload alt="文档" />：</p>
+<p>附上我使用 TikZ 制作的<a href="/downloads/%E7%9B%92%E5%8F%8B%E7%9A%84%E5%B0%8F%E9%9A%BE%E9%A2%98.pdf">文档</a>：</p>
 <p><img src="/img/%E7%9B%92%E5%8F%8B%E7%9A%84%E5%B0%8F%E9%9A%BE%E9%A2%98_%E9%A1%B5%E9%9D%A2_1.png" srcset="/img/loading.gif" lazyload alt="第一页" /><br />
 <img src="/img/%E7%9B%92%E5%8F%8B%E7%9A%84%E5%B0%8F%E9%9A%BE%E9%A2%98_%E9%A1%B5%E9%9D%A2_2.png" srcset="/img/loading.gif" lazyload alt="第二页" /><br />
 <img src="/img/%E7%9B%92%E5%8F%8B%E7%9A%84%E5%B0%8F%E9%9A%BE%E9%A2%98_%E9%A1%B5%E9%9D%A2_3.png" srcset="/img/loading.gif" lazyload alt="第三页" /></p>
@@ -417,6 +418,12 @@
                   <article class="post-prev col-6">
                     
                     
+                      <a href="/2024/11/29/Frullani-%E7%A7%AF%E5%88%86/" title="Frullani 积分">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">Frullani 积分</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
                   </article>
                   <article class="post-next col-6">
                     
@@ -479,6 +486,11 @@
 
 
   
+
+
+  
+  
+
 
 
 
