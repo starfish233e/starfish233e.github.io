@@ -1,0 +1,4 @@
+/* 调整 slogan 字号 */
+.hero .subtitle {
+    font-size: 48px !important; /* 根据需要调整字号大小 */
+}
